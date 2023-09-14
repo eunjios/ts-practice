@@ -1,0 +1,11 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		"outDir": "build",
+		"target": "ES6",
+		"lib": ["ES6"], 				// "DOM": 브라우저 용 앱
+		"strict": true,
+		"esModuleInterop": true,
+		"module": "CommonJS", 	// "UMD": 브라우저 용 앱 
+	}
+}
