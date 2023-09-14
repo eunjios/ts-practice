@@ -1,4 +1,4 @@
-import crypto from 'crypto';
+import crypto from 'crypto'; 
 
 interface BlockShape {
 	hash: string;			// 블록의 해시
